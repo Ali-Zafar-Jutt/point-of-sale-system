@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>History</class>
+ <widget class="QDialog" name="History">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>975</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="SalesHistory_Table">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>881</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>125</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Reference#</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Product Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Price</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Quantity</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Price</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tax</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Sales Person</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>510</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Monthly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Quarterly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Yearly</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="Generate_Button">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>510</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Generate Report</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
