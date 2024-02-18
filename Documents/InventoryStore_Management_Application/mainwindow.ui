@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1472</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>0</y>
+      <width>1281</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="Container"/>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>134</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_AddUser">
+       <property name="styleSheet">
+        <string notr="true">background-color: #3498db;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 5px;</string>
+       </property>
+       <property name="text">
+        <string>Add User</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_ViewHistory">
+       <property name="styleSheet">
+        <string notr="true">background-color: #3498db;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 5px;</string>
+       </property>
+       <property name="text">
+        <string>View History</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_AddSale">
+       <property name="styleSheet">
+        <string notr="true">background-color: #3498db;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 5px;</string>
+       </property>
+       <property name="text">
+        <string>Add Sale</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Inventory">
+       <property name="styleSheet">
+        <string notr="true">background-color: #3498db;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 5px;
+hover{
+ background-color:#FF00FF;
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Inventory</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="SignOut_Button">
+       <property name="styleSheet">
+        <string notr="true">background-color: #3498db;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 5px;
+hover{
+ background-color:#FF00FF;
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Sign Out</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>300</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

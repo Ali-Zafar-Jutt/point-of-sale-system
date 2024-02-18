@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Signin</class>
+ <widget class="QDialog" name="Signin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>851</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Signin {
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+QDialog#Signin {
+    border-radius: 10px;
+    border: 1px solid #dcdcdc; /* Light gray border around the dialog */
+}
+
+/* Style for labels */
+QDialog#Signin QLabel {
+    font-size: 16px;
+    color: #333333; /* Dark gray text color */
+    margin-bottom: 5px;
+    border: 1px solid #dcdcdc; /* Light gray border around the label */
+    background-color: #f9f9f9; /* Very light gray background color */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Style for line edits */
+QDialog#Signin QLineEdit {
+    border: 1px solid #dcdcdc; /* Light gray border around line edits */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Style for push buttons */
+QDialog#Signin QPushButton {
+    background-color: #4286f4; /* Blue background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+QDialog#Signin QPushButton:hover {
+    background-color: #2a64b5; /* Darker blue background on hover */
+}
+</string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
